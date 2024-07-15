@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>My First Website</title>
+        <link rel="stylesheet" href="Mystyles2.css">
+    </head>
+    <body>
+        <body bgcolor="white">
+            <body background="c:\Users\Rise\Documents\beach.jpg"></body>
+
+        <nav>
+            <ul>
+                <li><a href="./Home.html">Home</a></li>
+                <li><a href="./About.html">About</a></li>
+                <li><a href="./Contact.html">Contact</a></li>
+                <li><a href="./Signin.html">Sign in</a></li>
+                <li><a href="./Login.html">Login</a></li>
+            </ul>
+        </nav>
+        <form action="RegistrationSuccess.html">
+            <h2>Registration Form:</h2>
+            <input type="text" name="fname" placeholder="First name">
+            <input type="text" name="lname" placeholder="Last name"><br><br>
+            Password  : <input type="password" name="pass"> <br><br>
+            Date of Birth : <input type="date" name="bname">
+            Age : <input type="number" name="age" min="18" max="24" step="1" value="18"><br><br>
+            Gender : <br><input type="radio" name="Gender" value="M">Male
+                     <input type="radio" name="Gender" value="F">Female<br><br>
+            Branch : <select name="Branch">
+                        <option value="CSE">CSE</option>
+                        <option value="CSE-AIML">AIML</option>
+                        <option value="CSE-DS">DS</option>
+                        <option value="ECE">ECE</option>
+                        <option value="EEE">EEE</option>
+                        <option value="MECH">MECH</option>
+                        <option value="CIVIL">CIVIL</option>
+                        <option value="OTHERS">Others</option>
+                     </select><br><br>
+            Language : <br><input type="checkbox" name="C" >C<br>
+                       <input type="checkbox" name="Python" >Python<br>
+                       <input type="checkbox" name="Java" >Java<br>
+                       <input type="checkbox" name="HTML" >HTML<br>
+                       <input type="checkbox" name="CSS" >CSS<br>
+                       <input type="checkbox" name="JavaScript" >JavaScript<br><br>
+            Mobile no: <input type="tel" name="personal" id="per1" pattern="[0-9]{10}" title="the ten digits number"><br><br>
+            Email Id: <input list="email" name="mymails">
+                        <datalist id="email">
+                            <option value="jyothi@gmail.com"></option>
+                            <option value="sivajyothi@yahoo.com"></option>
+                            <option value="sivajyothichoda@hotmail.com"></option>
+                            <option value="jyothi123@gmail.com"></option>
+                        </datalist><br><br>
+            Address : <textarea name="Address" cols="35" row="5">
+                         Address.......
+                      </textarea><br><br>
+            <input type="submit">
+        <footer>
+            <p>&copy; 2024 My MyCompany. All rights reserved</p>
+        </footer>
+    </body>
+</html>
